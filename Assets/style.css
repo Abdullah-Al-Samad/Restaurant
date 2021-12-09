@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.section-heading {
+    font-family: 'Grand Hotel', serif;
+    /* font-size: 5rem; */
+}
+
+/* Heading Secction Starts */
+
+.fa-bars {
+    color: white;
+}
+
+.fa-times {
+    color: white;
+}
+
+nav ul li a, .fa-search {
+    color: white;
+}
+
+nav ul li a {
+    text-align: right;
+}
+
+header {
+    background: url('./images/heading-image.png');
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+    background-color: #2f2f2f;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+.header-right {
+    background: url('./images/heading-bg.png');
+    background-size: 94%;
+    background-repeat: no-repeat;
+    background-position-y: -3rem;
+    background-position-x: 4rem;
+    padding: 14rem 0;
+}
+
+.header-right-text {
+    padding: 0 10rem 0 15rem;
+}
+
+.fa-search, .fa-times {
+    cursor: pointer;
+}
+
+/* Heading Secction Ends */
+
+/* Best Seller Section Starts */
+.best-seller {
+    padding: 5rem;
+}
+
+.best-seller a {
+    text-decoration: none;
+    color: black;
+}
+
+.best-seller a:hover {
+    text-decoration: none;
+    color: black;
+}
+/* Best Seller Section Ends */
+
+/* Oriental Taste Section Starts */
+
+.oriental-taste {
+    background: url('./images/oriental-bg.png');
+    background-size: 147% 105%;
+    background-repeat: no-repeat;
+    background-position-x: -17rem;
+}
+
+
+
+/* Oriental Taste Section Ends */
+
+/* Statistics Section Starts */
+.statistics {
+    background: url('./images/stat&sub-bg.png');
+    background-color: #333333;
+    padding: 8rem 0;
+    background-repeat: no-repeat;
+    background-position-x: 6rem;
+}
+
+.stat-option {
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+/* Statistics Section Ends */
+
+/* Chicken Grill Section Starts */
+
+.chicken-grill {
+    background: url('./images/chiccken-grill-bg.png');
+    background-repeat: no-repeat;
+    background-position-x: -7rem;
+    background-position-y: -3rem;
+    background-size: 115% 100%;
+}
+
+/* Chicken Grill Section Ends */
+
+/* Testimonial Secction Starts */
+
+.testimonial {
+    background: url('./images/testi-bg.png');
+    background-size: 100% 132%;
+    background-repeat: no-repeat;
+    background-position-y: -15rem;
+}
+
+/* .testimonial .carousel {
+    background-color: rgb(255, 255, 0, 0.8);
+    padding: 19rem 0;
+} */
+
+/* Testimonial Secction Ends */
+
+/* Subscribe Section Start */
+.subscribe {
+    padding: 15rem 0;
+    background: url('./images/stat&sub-bg.png');
+    background-color: #ddd;
+}
+
+.input-group input {
+    border: none;
+}
+.input-group {
+    box-shadow: 0px 0px 10px;
+}
+
+.input-group:hover {
+    box-shadow: none;
+    transition: all 500ms;
+}
+/* Subscribe Section End */
+
+/* Footer Section Starts */
+footer {
+    background-color: #303030;
+    color: white;
+}
+
+footer .container {
+    padding-top: 10rem;
+}
+
+.social a i {
+    color: #fff !important;
+    border: 1px solid #fff;
+}
+
+.social a i:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #303030 !important;
+    transition: all 500ms;
+}
+
+.fa-instagram, .fa-twitter {
+    padding: 1rem;
+}
+.fa-facebook-f {
+    padding: 1rem 1.3rem;
+}
+
+.fa-whatsapp {
+    padding: 1rem;
+}
+footer ul li a {
+    color: white;
+}
+
+footer ul li a:hover {
+    color: white !important;
+}
+/* Footer Section Ends */

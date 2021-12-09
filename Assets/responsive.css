@@ -1,0 +1,165 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header {
+        background: none !important;
+    }
+
+    .header-right {
+        background: url('./images/heading-bg.png');
+        background-size: 276%;
+        background-repeat: no-repeat;
+        background-position-y: -10rem;
+        background-position-x: 61%;
+        padding: 4rem 0;
+    }
+
+    .header-right-text {
+        padding: 0;
+    }
+
+    .oriental-taste {
+        background: #333333;
+        background-size: 147% 105%;
+        background-repeat: no-repeat;
+        background-position-x: -17rem;
+    }
+
+    .chicken-grill {
+        background: #333333;
+        background-size: 147% 105%;
+        background-repeat: no-repeat;
+        background-position-x: -17rem;
+    }
+
+    .testimonial .carousel {
+        background-color: rgb(255, 255, 0, 0.8);
+        padding: 5rem 0;
+    }
+
+    .testimonial {
+        background: url('./images/testi-bg.png');
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-position-x: center;
+    }
+
+    .best-seller {
+        padding: 2rem;
+    }
+
+    .subscribe {
+        padding: 2rem 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .header-right {
+        background: url('./images/heading-bg.png');
+        background-size: 118%;
+        background-repeat: no-repeat;
+        background-position-y: -8rem;
+        background-position-x: -6rem;
+        padding: 4rem 0;
+    }
+
+    .header-right-text {
+        padding: 0 6rem 1rem 2rem;
+    }
+
+    .chicken-grill {
+        background: #333333;
+    }
+
+    .testimonial {
+        background: url('./images/testi-bg.png');
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-position-x: center;
+    }
+
+    .testimonial .carousel {
+        background-color: rgb(255, 255, 0, 0.8);
+        padding: 10rem 0;
+    }
+
+    .subscribe {
+        padding: 2rem 0;
+    }
+    
+    .oriental-taste {
+        background: #333333;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .testimonial {
+        background: url('./images/testi-bg.png');
+    }
+    .testimonial .carousel {
+        background-color: rgb(255, 255, 0, 0.8);
+        padding: 2rem;
+    }
+
+    .input-group {
+        width: 50% !important;
+    }
+
+    .subscribe {
+        padding: 10rem 0;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .header-right {
+        background: url('./images/heading-bg.png');
+        background-size: 102%;
+        background-repeat: no-repeat;
+        background-position-y: -3rem;
+        background-position-x: 4rem;
+        padding: 14rem 0;
+    }
+
+    .header-right-text {
+        padding: 0 5rem 0 15rem;
+    }
+
+    .testimonial .carousel {
+        background-color: rgb(255, 255, 0, 0.8);
+        padding: 19rem 0;
+    } 
+
+    .subscribe {
+        padding: 18rem 0;
+    }
+
+    .chicken-grill {
+        background: url('./images/chiccken-grill-bg.png');
+        background-repeat: no-repeat;
+        background-position-x: -7rem;
+        background-position-y: -3rem;
+        background-size: 125% 100%;
+    }
+
+    .testimonial {
+        background: url('./images/testi-bg.png');
+        background-size: 100% 132%;
+        background-repeat: no-repeat;
+        background-position-y: -15rem;
+    }
+
+    .oriental-taste {
+        background: url('./images/oriental-bg.png');
+        background-size: 147% 105%;
+        background-repeat: no-repeat;
+        background-position-x: -17rem;
+    }    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
